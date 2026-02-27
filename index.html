@@ -6,6 +6,9 @@
      <title>IT Website</title>
      <meta name="description" content="IT Websote Figma to HTML Project build using CSS Grids and Flexbox">
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"> -->
 </head>
 <body>
     <div class="wrap-1">
@@ -32,16 +35,62 @@
                     </div>
                </header>
                <div class="banner">
-                    <div class="row align-center">
-                         <div class="col-6 col-t-12">
-                              <div class="caption">
-                                   <p class="lead">Software solution providers that help brands thrive and stand out</p>
-                                   <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
-                                   <a href="">EXPLORE MORE</a>
+                    <div class="slider">
+                         <div class="slide">
+                              <div class="row align-center">
+                                   <div class="col-6 col-t-12">
+                                        <div class="caption">
+                                             <p class="lead">Software solution providers that help brands thrive and stand out</p>
+                                             <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                             <a href="">EXPLORE MORE</a>
+                                        </div>
+                                   </div>
+                                   <div class="col-6 col-t-12 order-t-before">
+                                        <img src="img/service-icon.webp" srcset="img/service-icon-2x.webp 2x" alt="service icon" width="535" height="499" class="img-resp">
+                                   </div>
                               </div>
                          </div>
-                         <div class="col-6 col-t-12 order-t-before">
-                              <img src="img/service-icon.webp" srcset="img/service-icon-2x.webp 2x" alt="service icon" width="535" height="499" class="img-resp">
+                         <div class="slide">
+                              <div class="row align-center">
+                                   <div class="col-6 col-t-12">
+                                        <div class="caption">
+                                             <p class="lead">Software solution providers that help brands thrive and stand out</p>
+                                             <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                             <a href="">EXPLORE MORE</a>
+                                        </div>
+                                   </div>
+                                   <div class="col-6 col-t-12 order-t-before">
+                                        <img src="img/service-icon.webp" srcset="img/service-icon-2x.webp 2x" alt="service icon" width="535" height="499" class="img-resp">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="slide">
+                              <div class="row align-center">
+                                   <div class="col-6 col-t-12">
+                                        <div class="caption">
+                                             <p class="lead">Software solution providers that help brands thrive and stand out</p>
+                                             <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                             <a href="">EXPLORE MORE</a>
+                                        </div>
+                                   </div>
+                                   <div class="col-6 col-t-12 order-t-before">
+                                        <img src="img/service-icon.webp" srcset="img/service-icon-2x.webp 2x" alt="service icon" width="535" height="499" class="img-resp">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="slide">
+                              <div class="row align-center">
+                                   <div class="col-6 col-t-12">
+                                        <div class="caption">
+                                             <p class="lead">Software solution providers that help brands thrive and stand out</p>
+                                             <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                             <a href="">EXPLORE MORE</a>
+                                        </div>
+                                   </div>
+                                   <div class="col-6 col-t-12 order-t-before">
+                                        <img src="img/service-icon.webp" srcset="img/service-icon-2x.webp 2x" alt="service icon" width="535" height="499" class="img-resp">
+                                   </div>
+                              </div>
                          </div>
                     </div>
                </div>
@@ -50,34 +99,34 @@
     <main>
           <div class="container">
                <section class="services">
-                    <div class="text-center">
+                    <div class="text-center" >
                          <h2>SERVICES</h2>
                          <p>We provide All-in-one Solution <br> for every IT job</p>
                     </div>
                     <div class="row">
                          <div class="col-3 col-t-6 col-p-12">
-                              <section class="service s1">
+                              <section class="service s1" data-aos="flip-left">
                                    <h3>Software <br> Development</h3>
                                    <p class="para">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn More &gt;</a>
                               </section>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <section class="service s2">
+                              <section class="service s2" data-aos="flip-up">
                                    <h3>AI Programmer & <br> Technical</h3>
                                    <p class="para">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn More &gt;</a>
                               </section>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <section class="service">
+                              <section class="service" data-aos="flip-down">
                                    <h3>System Application <br> Development</h3>
                                    <p class="para">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn More &gt;</a>
                               </section>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <section class="service">
+                              <section class="service" data-aos="flip-right">
                                    <h3>Server and Network <br> Solutions</h3>
                                    <p class="para">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn More &gt;</a>
@@ -89,22 +138,22 @@
                     <div class="row">
                          <div class="col-3 col-t-6 col-p-12">
                               <div class="info-text text-center">
-                                   <p> <b>782</b> <br> WORLDWIDE CUSTOMERS</p>
+                                   <p> <b class="purecounter" data-purecounter-start="700" data-purecounter-end="782">782</b> <br> WORLDWIDE CUSTOMERS</p>
                               </div>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
                               <div class="info-text text-center">
-                                   <p> <b>782</b> <br> WORLDWIDE CUSTOMERS</p>
+                                   <p> <b class="purecounter" data-purecounter-start="0" data-purecounter-end="182">182</b> <br> WORLDWIDE CUSTOMERS</p>
                               </div>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
                               <div class="info-text text-center">
-                                   <p> <b>782</b> <br> WORLDWIDE CUSTOMERS</p>
+                                   <p> <b class="purecounter" data-purecounter-start="0" data-purecounter-end="282">282</b> <br> WORLDWIDE CUSTOMERS</p>
                               </div>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
                               <div class="info-text text-center">
-                                   <p> <b>782</b> <br> WORLDWIDE CUSTOMERS</p>
+                                   <p> <b class="purecounter" data-purecounter-start="500" data-purecounter-end="820">820</b> <br> WORLDWIDE CUSTOMERS</p>
                               </div>
                          </div>
                     </div>
@@ -131,7 +180,7 @@
                               </div>
                          </div>
                          <div class="col-6 col-t-12 order-t-before">
-                              <img src="img/about.webp" srcset="img/about-2x.webp 2x" alt="about us" width="582" height="478" class="img-resp" loading="lazy">
+                              <img data-aos="fade-up" src="img/about.webp" srcset="img/about-2x.webp 2x" alt="about us" width="582" height="478" class="img-resp" loading="lazy">
                          </div>
                     </div>
                </section>
@@ -165,7 +214,7 @@
                                                   <img src="img/mission.webp" srcset="img/mission-2x.webp 2x" alt="mission" width="295" height="300" loading="lazy" class="img-resp">
                                              </div>
                                              <div class="mission-desc">
-                                                  <h3>Our Mission</h3>
+                                                  <h3>Our Company</h3>
                                                   <p class="para">Integer non velit nec nunc pulvinar porttitor. Vivamus euismod, mauris ac pellentesque commodo, est nunc dapibus metus, vel dapibus felis lacus sit amet urna. Curabitur feugiat bibendum ex, id mollis enim sollicitudin dictum. Aenean ullamcorper volutpat lacus.</p>
                                                   <a href="">Learn More</a>
                                              </div>
@@ -180,7 +229,7 @@
                                                   <img src="img/mission.webp" srcset="img/mission-2x.webp 2x" alt="mission" width="295" height="300" loading="lazy" class="img-resp">
                                              </div>
                                              <div class="mission-desc">
-                                                  <h3>Our Mission</h3>
+                                                  <h3>Our Customers</h3>
                                                   <p class="para">Integer non velit nec nunc pulvinar porttitor. Vivamus euismod, mauris ac pellentesque commodo, est nunc dapibus metus, vel dapibus felis lacus sit amet urna. Curabitur feugiat bibendum ex, id mollis enim sollicitudin dictum. Aenean ullamcorper volutpat lacus.</p>
                                                   <a href="">Learn More</a>
                                              </div>
@@ -197,7 +246,7 @@
                     </div>
                     <div class="row">
                          <div class="col-4 col-p-12">
-                              <section class="text-center">
+                              <section class="text-center" data-aos="fade-up">
                                    <div class="upper">
                                         <img src="img/chat.svg" alt="chat" width="80" height="80" loading="lazy">
                                         <p>Nisl rhoncus mattis rhoncus urna neque viverra. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum.</p>
@@ -215,7 +264,7 @@
                               </section>
                          </div>
                          <div class="col-4 col-p-12">
-                              <section class="text-center">
+                              <section class="text-center" data-aos="fade-up">
                                    <div class="upper">
                                         <img src="img/chat.svg" alt="chat" width="80" height="80" loading="lazy">
                                         <p>Nisl rhoncus mattis rhoncus urna neque viverra. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum.</p>
@@ -233,7 +282,7 @@
                               </section>
                          </div>
                          <div class="col-4 col-p-12">
-                              <section class="text-center">
+                              <section class="text-center" data-aos="fade-up">
                                    <div class="upper">
                                         <img src="img/chat.svg" alt="chat" width="80" height="80" loading="lazy">
                                         <p>Nisl rhoncus mattis rhoncus urna neque viverra. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum.</p>
@@ -277,7 +326,7 @@
                     </div>
                     <div class="row">
                          <div class="col-4 col-p-12">
-                              <section>
+                              <section data-aos="fade-up">
                                    <img src="img/sebastian.webp" srcset="img/sebastian-2x.webp 2x" alt="sebastian dow" width="380" height="250" class="img-resp"  loading="lazy">
                                    <h3>SEBASTIAN DOE</h3>
                                    <small>Code Expert</small>
@@ -289,7 +338,7 @@
                               </section>
                          </div>
                          <div class="col-4 col-p-12">
-                              <section>
+                              <section data-aos="fade-up">
                                    <img src="img/sebastian.webp" srcset="img/sebastian-2x.webp 2x" alt="sebastian dow" width="380" height="250" class="img-resp"  loading="lazy">
                                    <h3>SEBASTIAN DOE</h3>
                                    <small>Code Expert</small>
@@ -301,7 +350,7 @@
                               </section>
                          </div>
                          <div class="col-4 col-p-12">
-                              <section>
+                              <section data-aos="fade-up">
                                    <img src="img/sebastian.webp" srcset="img/sebastian-2x.webp 2x" alt="sebastian dow" width="380" height="250" class="img-resp"  loading="lazy">
                                    <h3>SEBASTIAN DOE</h3>
                                    <small>Code Expert</small>
@@ -354,5 +403,38 @@
                </div>
           </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script>
+$(function(){
+    
+     $(".menu").click(function(){
+          $("nav").slideToggle();
+     });
+
+     $(".work-details li > a").click(function(e){
+          e.preventDefault();
+          $(".work-details li").removeClass("active");
+          $(this).parent("li").addClass("active");
+          $(".mission").fadeOut(0);
+          $(this).next(".mission").fadeIn();
+     });
+
+     $(".slider").slick({
+          autoplay:true,
+          autoplaySpeed:5000,
+          arrows:false,
+          dots:true
+     });
+
+     AOS.init();
+
+     new PureCounter();
+
+
+})
+</script>
 </body>
 </html>

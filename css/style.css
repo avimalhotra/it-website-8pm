@@ -63,8 +63,9 @@ nav a{ color: inherit; font-weight: 600; display: block; }
 .banner .lead{ font-size: 28px; font-weight: 600;}
 .banner p{ font-size: 16px; line-height: 1.75; margin: 30px 0 40px;}
 .banner a{ display: block; width: 185px; line-height: 50px; background: #fff; color:var(--bl); text-align: center; border-radius: 5px; font-size:16px; font-weight: 600;}
-
-
+.slick-dots{ display: flex; justify-content: center; list-style: none; padding: 0; gap: 1rem; margin-top: 2rem;}
+.slick-dots button{ width: 30px; height: 30px; background: var(--db); border-radius: 50%; border: 1px solid; color: var(--wt); }
+.slick-dots .slick-active button{ background: var(--wt); color: var(--db); }
 
 
 main{ background: #fff; padding: 100px 0;}
@@ -90,9 +91,10 @@ main h2 + p{ font-size: 28px; font-weight: 700; }
 .work{ margin: 100px 0;}
 .work-details{ margin: 40px 0;}
 .work-details ul{ list-style: none; padding: 0; gap: 20px;}
-.work-details li > a{ display: block; width: 85px; height: 300px; flex-shrink: 0; border-radius: 5px; box-shadow: 0 0 18px #0000002e; writing-mode: sideways-lr; text-align: center; line-height: 85px; color: var(--db); font-size: 24px; font-weight: 500; }
+.work-details li > a{ display: block; width: 85px; height: 300px; flex-shrink: 0; border-radius: 5px; box-shadow: 0 0 18px #0000002e; writing-mode: sideways-lr; text-align: center; line-height: 81px; color: var(--db); font-size: 24px; font-weight: 500; border: 2px solid transparent}
 .mission{display: none; margin-left: 20px;}
-li.active .mission{ display: block;}
+li:first-child .mission{ display: block;}
+li.active > a{ border: 2px solid var(--db);}
 .mission-img{ flex-shrink: 0; margin-right: 20px;}
 .mission h3{ font-size: 24px; font-weight: 500; }
 .mission a{ display: block; width: 184px; line-height: 54px; background: var(--db); color: #fff; text-align: center; border-radius: 5px;}
@@ -194,4 +196,6 @@ h1{ font-size: 30px;}
 .mission{ margin: 20px 0 0 0; }
 .mission-img img{ width: 200px;}
 .mission .flex{ flex-flow: column wrap;}
+nav{ position: absolute; left: 0; right: 0; top: 90px; background: var(--db); }
+nav ul{ flex-flow: column; gap: 1rem; text-align: right; }
 }
